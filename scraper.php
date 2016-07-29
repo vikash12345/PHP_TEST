@@ -43,4 +43,5 @@ for($id = 1; $i <= $MAX_ID; $id++)
   //clean out the dom
   $dom->__destruct();
 }
+}
 ?>
