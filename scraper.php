@@ -1,5 +1,5 @@
-1. <?php
-2. $url = 'http://www.oooff.com';
-3. $output = file_get_contents($url); 
-4. echo $output;
-5. ?>
+<?php
+$url = 'http://www.oooff.com';
+$output = file_get_contents($url); 
+echo $output;
+?>
