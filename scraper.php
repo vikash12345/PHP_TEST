@@ -6,7 +6,7 @@ require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
 //
 // // Read in a page
-$html = scraperwiki::scrape("http://google.com");
+$html = scraperwiki::scrape("https://www.google.com.pk/?gws_rd=cr,ssl&ei=6UGbV-iYK4HbUfT1mcAB");
 //
 // // Find something on the page using css selectors
 $dom = new simple_html_dom();
